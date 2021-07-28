@@ -8,8 +8,8 @@ The goal of this repo is really to practice writing in different programming lan
 
 ## Features
 
-| Feature        | Bash | Go  | Kotlin   | TypeScript |
-|----------------|------|-----|----------|------------|
-| -x shortflag   | [ ]  | [ ] | [x]      | [ ]        |
-| container list | [ ]  | [ ] | [x]      | [ ]        |
-|                | [ ]  | [ ] | [ ]      | [ ]        |
+| Feature        | Bash    | Go     | Kotlin       | TypeScript    |
+|----------------|---------|--------|--------------|---------------|
+| -x shortflag   | &nbsp;  | &nbsp; | &check;      | &nbsp;        |
+| container list | &nbsp;  | &nbsp; | &check;      | &nbsp;        |
+|                | &nbsp;  | &nbsp; | &nbsp;       | &nbsp;        |
