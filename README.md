@@ -10,6 +10,6 @@ The goal of this repo is really to practice writing in different programming lan
 
 | Feature        | Bash | Go  | Kotlin   | TypeScript |
 |----------------|------|-----|----------|------------|
-| -x shortflag   | []   | []  | [x]      | []         |
-| container list | []   | []  | [x]      | []         |
-|                | []   | []  | []       | []         |
+| -x shortflag   | [ ]  | [ ] | [x]      | [ ]        |
+| container list | [ ]  | [ ] | [x]      | [ ]        |
+|                | [ ]  | [ ] | [ ]      | [ ]        |
