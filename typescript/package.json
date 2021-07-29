@@ -2,7 +2,7 @@
   "name": "kuddle-buddy",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "ts-node src/index.ts",
     "test": "jest",
@@ -14,6 +14,7 @@
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "@types/node": "^16.4.4",
+    "@types/shell-escape": "^0.2.0",
     "jest": "^27.0.6",
     "ts-jest": "^27.0.4",
     "ts-node": "^10.1.0",
