@@ -82,6 +82,10 @@ export class Kuddle {
         return ret
     }
 
+    static parseContainers(podListJSON:string):string {
+        return "No pods in this namespace"
+    }
+
     static async run(args:string[]):Promise<CommandOutput>{
         if (args[0] == "containers" ){
             return new Promise<CommandOutput>((resolve, reject)=> {

@@ -56,3 +56,18 @@ test("kubectl with -x should not cause an error", async() => {
     expect(result.stderr).not.toContain("Error: unknown shorthand flag: 'x'")
     expect(result.stderr).toContain(`error: context "woierjewori" does not exist`)
 });
+
+test("parse containers should return no output for an empty list", () => {
+    const inputObj = JSON.stringify({
+        "apiVersion": "v1",
+        "items": [],
+        "kind": "List",
+        "metadata": {
+          "resourceVersion": "",
+          "selfLink": ""
+        }
+    })
+
+    const expected = "No pods in this namespace"
+    expect(Kuddle.parseContainers(inputObj)).toBe(expected)
+})
